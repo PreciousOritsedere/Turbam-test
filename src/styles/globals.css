@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::before,
+::after {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    #e4efff 0%,
+    rgba(228, 239, 255, 0.6) 92.51%,
+    rgba(228, 239, 255, 0) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-image: url(/assets/bg-image.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top center;
+}
